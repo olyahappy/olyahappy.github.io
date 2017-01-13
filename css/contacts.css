@@ -1,0 +1,30 @@
+
+
+div {
+	background-color: lightgray;
+	text-align: center;
+	    padding-bottom: 50px;
+    padding-top: 50px;
+
+
+	
+
+}
+h1 {
+	margin-top: 0;
+	font-family: 'Berkshire Swash', cursive;
+}
+ li {
+	text-align: center;
+	margin-bottom: 0;
+    font-family: 'Berkshire Swash', cursive;
+
+}
+a {
+	font-family: 'Berkshire Swash', cursive;
+}
+img {
+	height: 100%;
+	width: 100%;
+
+}

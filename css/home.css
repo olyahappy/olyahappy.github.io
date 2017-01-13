@@ -1,0 +1,9 @@
+
+
+#anna {
+	background-image: url('../img/anna.jpg');
+	background-repeat: no-repeat;
+  background-size: contain;
+   width: 100%;
+   height: 525px;
+}
