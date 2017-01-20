@@ -4,9 +4,45 @@
 body {
   background-color: lightgray;
 }
-img
-    max-width: 31%;
+
+.wrap h2 {
+	text-align: center;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 60px;
 }
-.masonry img {
-	max-width: 31%;
-	
+
+.wrap {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
+/*.grid-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+
+}*/
+
+.masonry { /* Masonry container */
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    -moz-column-gap: 1em;
+    -webkit-column-gap: 1em;
+    column-gap: 1em;
+}
+
+.masonry .item { /* Masonry bricks or child elements */
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}

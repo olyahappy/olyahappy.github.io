@@ -1,3 +1,22 @@
 
 
 
+
+div {
+	background-color: lightgray ;
+
+
+}
+
+h1 {
+	text-align: center;
+    margin-top: 0px;
+    font-family: 'Berkshire Swash', cursive;
+     padding-top: 52px;
+     }
+
+h2 {
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Berkshire Swash', cursive;
+    }

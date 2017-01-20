@@ -44,16 +44,7 @@
     text-decoration-color: black;
 
   }
-
-  nav li:first-of-type {
-    padding-left: 0;
-  }
-
-  nav li:last-of-type {
-    padding-right: 0;
-
-  }
-
+  
   a {
     text-decoration: none;
     color: black;
@@ -74,6 +65,10 @@
    text-align: center;
    margin: margin: 7em 0;
    font-family: 'Berkshire Swash', cursive;
+   background-color: gray;
+       margin-top: -8px;
+    padding-top: 37px;
+    
  }
 
 
@@ -143,12 +138,34 @@ font-size: 4rem;
 
   }
 
+
   .hamburger {
     display: inline-block;
 
   }
-   
+  nav li {
+    display:block;
+  }
+
   header {
     margin-top: 20px; 
   }
+}
+
+.carousel-wrapper {
+width: 40%;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.slides {
+display: flex;
+flex-direction: row;
+/*width: 400%;*/
+transition: .3s all ease-in-out;
+}
+
+.slides img {
+  /*width: 25%;*/
+  align-self: center;
 }
